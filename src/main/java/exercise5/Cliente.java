@@ -18,9 +18,9 @@ public class Cliente {
         parrillero.setParrilla(tira);
         parrillero.buildParrilla();
 
-        Parrilla p1 = new Parrilla();
-        Parrilla p2 = new Parrilla();
-        Parrilla p3 = new Parrilla();
+        Parrilla p1 = parrillero.getParrilla();
+        Parrilla p2 = parrillero.getParrilla();
+        Parrilla p3 = parrillero.getParrilla();
 
         p1.showPlato();
         p2.showPlato();
